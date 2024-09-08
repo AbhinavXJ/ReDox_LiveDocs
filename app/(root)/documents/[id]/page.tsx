@@ -1,7 +1,4 @@
-import { Editor } from '@/components/editor/Editor'
 import React from 'react'
-import Header from '@/components/Header'
-import { SignedIn, SignedOut, SignInButton, UserButton } from '@clerk/nextjs'
 import CollaborativeRoom from '@/components/ui/CollaborativeRoom'
 import { currentUser } from '@clerk/nextjs/server'
 import { redirect } from 'next/navigation'

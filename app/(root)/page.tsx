@@ -1,6 +1,5 @@
 import Header from '@/components/Header';
 import AddDocumentButton from '@/components/ui/AddDocumentButton';
-import { Button } from '@/components/ui/button';
 import { DeleteModal } from '@/components/ui/DeleteModal';
 import Notifications from '@/components/ui/Notifications';
 import { getDocuments } from '@/lib/actions/room.actions';
@@ -23,7 +22,7 @@ const Home = async () => {
       <Header className='sticy left-0 top-0'>
       <div className='flex items-center gap-2 lg:gap-4'>
       <Notifications>
-        
+
       </Notifications>
       <SignedIn>
         <UserButton>
